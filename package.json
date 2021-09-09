@@ -2,7 +2,9 @@
   "name": "ex_express4",
   "version": "0.0.0",
   "description": "Express JS 4 Tutorials",
-  "scripts": {},
+  "scripts": {
+    "git:commit": "cz"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rapidevelop/ex_express4.git"
@@ -14,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/rapidevelop/ex_express4/issues"
   },
-  "homepage": "https://github.com/rapidevelop/ex_express4#readme"
+  "homepage": "https://github.com/rapidevelop/ex_express4#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  }
 }
